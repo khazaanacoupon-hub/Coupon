@@ -22,8 +22,8 @@ app.use(express.json({ limit: '10mb' }))
 app.use(express.urlencoded({ extended: true }))
 
 // Routes
-app.use('/api/admin', adminRoutes)
-app.use('/api/data', dataRoutes)
+app.use('/admin', adminRoutes)
+app.use('/data', dataRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {
