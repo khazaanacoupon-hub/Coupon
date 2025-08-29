@@ -27,7 +27,7 @@ export const adminAuth = {
   reset: (data) => api.post("/admin/reset-password", data),
   forgotPassword: (data) => api.post("/admin/forgot-password", data),
   verifyForgotPasswordOTP: (data) =>
-    api.post("admin/verify-forgot-password-otp", data),
+    api.post("/admin/verify-forgot-password-otp", data),
 };
 
 // Data API
