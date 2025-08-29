@@ -16,10 +16,10 @@ router.post("/verify-forgot-password-otp", verifyForgotPasswordOTP);
 router.post("/reset-password", resetPassword);
 
 // Admin signup
-router.post("/signup", signup);
+// router.post("/signup", signup);
 
 // Verify signup OTP
-router.post("/verify-otp", verifyOTP);
+// router.post("/verify-otp", verifyOTP);
 
 // Admin login
 router.post("/login", login);
